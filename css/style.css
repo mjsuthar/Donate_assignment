@@ -1,0 +1,88 @@
+body{
+	font-family: sans-serif;
+	color: gray;
+
+}
+.Donate{
+	border:1px solid silver;
+	height: 60%;
+	
+	margin-right: 35%;
+	margin-left: 25%;
+	
+}
+.bar{
+	border:1px solid silver;
+	height: 20px;
+	margin-top: 100px;
+	margin-right: 35%;
+	margin-left: 25%;
+	background: linear-gradient(to right, OrangeRed 70%, white 30%);
+}
+
+.style1 p{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 26px;
+
+}
+
+button{
+	height: 70px;
+	border:1px solid limeGreen;
+	border-radius: 5px;
+	background-color: limeGreen;
+	color: white;
+	width: 35%;
+	font-size: 25px;
+}
+input{
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-top: 10%;
+	height: 70px;
+	width: 35%;
+	border-radius: 5px;
+	border: 1px solid silver;
+	font-size: 26px;
+	padding-left: 20px !important; 	
+	display: inline-block !important;
+}
+span{
+	color:OrangeRed;
+}
+#link{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 26px;
+}
+#save, #tell{
+	margin-top: 5%;
+	height: 50px;
+	border:1px solid silver;
+	border-radius: 5px;
+	background-color: white;
+	color: gray;
+	width: 47%;
+	font-size: 25px;
+}
+#save{
+	margin-right: 5%;
+}
+#currency{
+	left: 700px;
+}
+.input-symbol-dollar:after {
+color: gray !important;
+    content: "$";
+    font-size: 26px !important;
+    font-weight: 400;
+    left: 55px;
+    position: absolute;
+    top: -15px;
+}
+.input-symbol-dollar {
+  position: relative;
+  color: black;
+}
